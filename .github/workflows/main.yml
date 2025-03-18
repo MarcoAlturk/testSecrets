@@ -17,6 +17,6 @@ jobs:
 
       # Run the Python script, passing the API key from GitHub Secrets
       - name: Run Python Script with API Key
-        run: python scripts/my_script.py  # Run the script from the 'scripts' folder
+        run: python scripts.py  # Run the script from the 'scripts' folder
         env:
           API_KEY: ${{ secrets.TEST_SECRET }}  # Pass the secret API key to the script
