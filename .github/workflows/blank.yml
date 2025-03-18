@@ -1,4 +1,0 @@
-- name: Run Python Script with API Key  # Just a label (doesn't affect execution)
-  run: python scripts.py  # 🚨 This MUST match your actual script filename!
-  env:
-    API_KEY: ${{ secrets.TEST_SECRET }}  # 🚨 This is the important part!
